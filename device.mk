@@ -35,6 +35,3 @@ $(call inherit-product, device/asus/msm8916-common/msm8916.mk)
 
 PRODUCT_PACKAGES += \
     init.target.rc
-
-PRODUCT_COPY_FILES += \
-    device/asus/Z00ED/audio/mixer_paths_mtp.xml:system/vendor/etc/mixer_paths_mtp.xml
